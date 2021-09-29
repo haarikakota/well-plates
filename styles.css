@@ -1,0 +1,32 @@
+table,
+td {
+  border: 0.063rem solid black;
+}
+
+td, .circle-button {
+  box-sizing: border-box;
+  height: 2.3rem;
+  width:2.3rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.938rem;
+}
+
+td.header-element {
+  margin: 0.938rem;
+  text-align: center;
+  vertical-align: middle;
+  border: 0;
+  border-radius: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+draggable{
+  cursor: move;
+}
